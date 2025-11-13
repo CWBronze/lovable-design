@@ -177,9 +177,9 @@ const NossaEssencia = () => {
       </section>
 
       {/* SEÇÃO CTA */}
-      <section className="py-20 px-10 bg-gradient-gold">
+      <section className="py-20 px-10 bg-gradient-to-br from-bronze via-gold to-gold-dark">
         <div className="container mx-auto text-center">
-          <div className="max-w-3xl mx-auto space-y-8">
+          <div className="max-w-3xl mx-auto space-y-8 flex flex-col items-center">
             <h2 className="font-script text-4xl md:text-5xl text-white">
               Conheça Nossa Clínica Pessoalmente
             </h2>

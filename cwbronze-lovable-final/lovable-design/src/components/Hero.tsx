@@ -13,7 +13,7 @@ import {
 const Hero = () => {
   return (
     <TooltipProvider>
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-hero mt-0 pt-20">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-hero mt-0 pt-16 sm:pt-20">
       {/* Bokeh/Light Effects */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-20 right-1/4 w-32 h-32 bg-gold/20 rounded-full blur-3xl animate-pulse"></div>
@@ -21,10 +21,10 @@ const Hero = () => {
         <div className="absolute top-1/2 right-1/3 w-24 h-24 bg-gold-light/25 rounded-full blur-2xl animate-pulse delay-1000"></div>
       </div>
 
-      <div className="container mx-auto px-6 py-32 relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
+      <div className="container mx-auto px-4 sm:px-6 py-16 sm:py-32 relative z-10">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12 items-center">
           {/* Left Image - Model */}
-          <div className="flex justify-center lg:justify-end pt-24">
+          <div className="flex justify-center lg:justify-end pt-8 lg:pt-24">
             <Tooltip>
               <TooltipTrigger asChild>
                 <Link to="/analise-de-pele" className="relative group cursor-pointer">
@@ -44,10 +44,10 @@ const Hero = () => {
           {/* Center Content */}
           <div className="flex flex-col items-center text-center space-y-8">
             <div className="space-y-6">
-              <h1 className="font-script text-6xl md:text-7xl lg:text-8xl text-gold leading-relaxed">
+              <h1 className="font-script text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-gold leading-relaxed">
                 Elegância & Cuidado
               </h1>
-              <p className="text-2xl md:text-3xl text-gold-dark font-medium tracking-[0.2em] uppercase">
+              <p className="text-xl sm:text-2xl md:text-3xl text-gold-dark font-medium tracking-[0.15em] sm:tracking-[0.2em] uppercase">
                 EM CADA TOM
               </p>
             </div>
@@ -60,7 +60,7 @@ const Hero = () => {
           </div>
 
           {/* Right Image - Hands */}
-          <div className="flex justify-center lg:justify-start pt-24">
+          <div className="flex justify-center lg:justify-start pt-8 lg:pt-24">
             <Tooltip>
               <TooltipTrigger asChild>
                 <Link to="/servicos" className="relative group cursor-pointer">

@@ -3,18 +3,16 @@ import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { Sparkles } from "lucide-react";
-import iconTanningBed from "@/assets/icon-tanning-bed-circle.jpg";
-import iconSprayGun from "@/assets/icon-spray-gun-circle.jpg";
+import { Sparkles, Sun, Spray } from "lucide-react";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col" id="inicio">
       <Header />
       <Hero />
       
       {/* SEÇÃO 2 - SERVIÇOS PREVIEW */}
-      <section className="py-20 px-10 bg-background">
+      <section id="servicos" className="py-20 px-10 bg-background">
         <div className="container mx-auto">
           <div className="text-center mb-16">
             <h2 className="font-script text-4xl md:text-5xl text-gold mb-4">
@@ -28,8 +26,8 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto items-stretch">
             {/* Card 1 */}
             <div className="bg-card rounded-2xl shadow-soft p-8 text-center space-y-4 hover:shadow-gold transition-all duration-300">
-              <div className="inline-flex">
-                <img src={iconTanningBed} alt="Bronzeamento Artificial" className="w-16 h-16 object-contain" />
+              <div className="inline-flex p-4 bg-gold/10 rounded-full">
+                <Sun className="w-16 h-16 text-gold" />
               </div>
               <h3 className="text-xl font-semibold text-gold">Bronzeamento Artificial</h3>
               <p className="text-sm text-foreground/70">
@@ -44,8 +42,8 @@ const Index = () => {
 
             {/* Card 2 */}
             <div className="bg-card rounded-2xl shadow-soft p-8 text-center space-y-4 hover:shadow-gold transition-all duration-300">
-              <div className="inline-flex">
-                <img src={iconSprayGun} alt="Instant Bronze" className="w-16 h-16 object-contain" />
+              <div className="inline-flex p-4 bg-gold/10 rounded-full">
+                <Spray className="w-16 h-16 text-gold" />
               </div>
               <h3 className="text-xl font-semibold text-gold">Instant Bronze</h3>
               <p className="text-sm text-foreground/70">
@@ -78,9 +76,9 @@ const Index = () => {
       </section>
 
       {/* SEÇÃO 3 - CTA */}
-      <section className="py-20 px-10 bg-gradient-gold">
+      <section className="py-20 px-10 bg-gradient-to-br from-bronze via-gold to-gold-dark">
         <div className="container mx-auto text-center">
-          <div className="max-w-3xl mx-auto space-y-8">
+          <div className="max-w-3xl mx-auto space-y-8 flex flex-col items-center">
             <h2 className="font-script text-4xl md:text-6xl text-white">
               Descubra Seu Tom Perfeito
             </h2>

@@ -5,7 +5,6 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Link } from "react-router-dom";
 import { Check, Sun, Sparkles, Award, Crown } from "lucide-react";
-import iconTanningBed from "@/assets/icon-tanning-bed-circle.jpg";
 
 const Servicos = () => {
   const servicos = [
@@ -19,8 +18,7 @@ const Servicos = () => {
         "Sessões rápidas e eficientes",
         "Acompanhamento profissional"
       ],
-      icon: iconTanningBed,
-      isImage: true,
+      icon: Sun,
       link: "/agendamento",
       linkText: "AGENDAR"
     },
@@ -308,7 +306,7 @@ const Servicos = () => {
                 <CardFooter>
                   <Link to="/agendamento" className="w-full">
                     <Button 
-                      variant={plano.destaque ? "cta" : "outline"}
+                      variant={plano.destaque ? "premium" : "outline"}
                       className="w-full"
                     >
                       ESCOLHER PLANO

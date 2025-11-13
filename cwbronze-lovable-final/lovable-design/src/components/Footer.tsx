@@ -3,7 +3,7 @@ import { Instagram, Facebook, Mail, Phone, MapPin } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-bronze">
+    <footer id="contato" className="bg-bronze">
       {/* Faixa de Destaque no Topo */}
       <div className="h-[60px] bg-primary"></div>
       
@@ -22,21 +22,21 @@ const Footer = () => {
           <div className="space-y-5 text-left">
             <h3 className="text-xl font-semibold text-primary mb-5">Links Rápidos</h3>
             <nav className="flex flex-col space-y-2">
-              <Link to="/" className="text-primary-foreground text-sm hover:text-primary transition-colors leading-[1.8]">
+              <a href="/#inicio" className="text-primary-foreground text-sm hover:text-primary transition-colors leading-[1.8]">
                 Início
-              </Link>
+              </a>
               <Link to="/nossa-essencia" className="text-primary-foreground text-sm hover:text-primary transition-colors leading-[1.8]">
                 Nossa Essência
               </Link>
-              <Link to="/servicos" className="text-primary-foreground text-sm hover:text-primary transition-colors leading-[1.8]">
+              <a href="/#servicos" className="text-primary-foreground text-sm hover:text-primary transition-colors leading-[1.8]">
                 Serviços
-              </Link>
+              </a>
               <Link to="/resultados" className="text-primary-foreground text-sm hover:text-primary transition-colors leading-[1.8]">
                 Resultados
               </Link>
-              <Link to="/contato" className="text-primary-foreground text-sm hover:text-primary transition-colors leading-[1.8]">
+              <a href="/#contato" className="text-primary-foreground text-sm hover:text-primary transition-colors leading-[1.8]">
                 Contato
-              </Link>
+              </a>
             </nav>
           </div>
 
@@ -57,18 +57,31 @@ const Footer = () => {
           <div className="space-y-5 text-left">
             <h3 className="text-xl font-semibold text-primary mb-5">Contato</h3>
             <div className="space-y-3 text-sm text-primary-foreground leading-[1.8]">
-              <div className="flex items-start gap-2">
+              <a 
+                href="https://maps.google.com/?q=R.+Mal.+Deodoro,+276+-+Loja+10,+Centro,+Curitiba+-+PR,+80010-010" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-start gap-2 hover:text-primary transition-colors"
+              >
                 <MapPin className="w-4 h-4 mt-1 flex-shrink-0 text-primary" />
                 <span>R. Mal. Deodoro, 276 - Loja 10<br />Centro, Curitiba - PR, 80010-010</span>
-              </div>
-              <div className="flex items-center gap-2">
+              </a>
+              <a 
+                href="https://wa.me/5541998661792" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 hover:text-primary transition-colors"
+              >
                 <Phone className="w-4 h-4 flex-shrink-0 text-primary" />
                 <span>(41) 99866-1792</span>
-              </div>
-              <div className="flex items-center gap-2">
+              </a>
+              <a 
+                href="mailto:cwbronzeamentoartificial@gmail.com"
+                className="flex items-center gap-2 hover:text-primary transition-colors"
+              >
                 <Mail className="w-4 h-4 flex-shrink-0 text-primary" />
                 <span>cwbronzeamentoartificial@gmail.com</span>
-              </div>
+              </a>
             </div>
           </div>
         </div>
