@@ -139,7 +139,7 @@ const Servicos = () => {
     },
     {
       pergunta: "Posso fazer bronzeamento se tenho pele sensível?",
-      resposta: "Sim! A análise de fototipo é essencial justamente para adaptar o tratamento ao seu tipo de pele. Criamos protocolos especiais para peles sensíveis com tempos reduzidos e acompanhamento mais frequente."
+      resposta: "Sim, mas com cuidados especiais. Recomendamos começar com a Ferrary Yellow em sessões mais curtas e sempre usar os produtos de proteção que fornecemos. Nossa equipe fará uma avaliação completa antes da primeira sessão para garantir total segurança."
     }
   ];
 
