@@ -161,7 +161,7 @@ const OutrosServicos = () => {
               <div className="flex items-center justify-center gap-4 mb-4">
                 <Leaf className="w-8 h-8 text-gold" />
                 <Heart className="w-8 h-8 text-gold" />
-                <Spray className="w-8 h-8 text-gold" />
+                
               </div>
               <CardTitle className="text-3xl text-gold mb-3">Tecnologia Premium Anti-Laranja</CardTitle>
               <CardDescription className="text-base">Fórmula hipoalergênica e vegana com Capilar Essência</CardDescription>
@@ -204,7 +204,7 @@ const OutrosServicos = () => {
             <Card className="border-gold/20 hover:shadow-gold transition-all duration-300">
               <CardHeader className="text-center">
                 <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-br from-gold to-gold-dark flex items-center justify-center">
-                  <Spray className="w-8 h-8 text-white" />
+                  
                 </div>
                 <CardTitle className="text-2xl text-gold">Corpo Completo</CardTitle>
                 <CardDescription className="text-base">Aplicação Total</CardDescription>
@@ -230,7 +230,7 @@ const OutrosServicos = () => {
               <div className="absolute top-4 right-4 bg-gold text-white px-3 py-1 rounded-full text-xs font-bold">ECONOMIA</div>
               <CardHeader className="text-center">
                 <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-br from-gold to-gold-dark flex items-center justify-center">
-                  <Spray className="w-8 h-8 text-white" />
+                  
                 </div>
                 <CardTitle className="text-2xl text-gold">Pacote 2 Aplicações</CardTitle>
                 <CardDescription className="text-base">Melhor Custo-Benefício</CardDescription>
