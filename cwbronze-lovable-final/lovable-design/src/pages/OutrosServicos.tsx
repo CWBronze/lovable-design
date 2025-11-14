@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Link } from "react-router-dom";
-import { Sparkles, Droplets, Clock, Spray, Heart, Leaf } from "lucide-react";
+import { Sparkles, Droplets, Clock, Heart, Leaf } from "lucide-react";
 
 const OutrosServicos = () => {
   return (
