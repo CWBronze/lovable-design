@@ -3,7 +3,7 @@ import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { Sparkles, Sun, Spray } from "lucide-react";
+import { Sparkles, Sun } from "lucide-react";
 
 const Index = () => {
   return (
