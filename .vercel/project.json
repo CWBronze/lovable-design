@@ -1,0 +1,16 @@
+{
+  "projectId": "prj_VppcX7EQSHvMAY35bEdsa2q3fs6G",
+  "orgId": "team_1DAoD0ACzJhko4ey0vuBhQ2V",
+  "projectName": "cwbronze-resgate",
+  "settings": {
+    "createdAt": 1762616151561,
+    "framework": null,
+    "devCommand": null,
+    "installCommand": null,
+    "buildCommand": null,
+    "outputDirectory": null,
+    "rootDirectory": null,
+    "directoryListing": false,
+    "nodeVersion": "22.x"
+  }
+}
